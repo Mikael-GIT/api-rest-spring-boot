@@ -17,7 +17,6 @@ import com.produtos.apirest.repositories.ProdutoRepository;
 @RestController
 @RequestMapping(path="/produtos")
 public class ProdutoController {
-	MIKAEL GOSTOSO123	
 	private ProdutoRepository produtoRepository;
 	
 	public ProdutoController(ProdutoRepository produtoRepository) {
